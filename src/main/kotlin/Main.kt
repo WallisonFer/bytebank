@@ -3,23 +3,23 @@ fun main() {
     val contaAlex = Conta()
     contaAlex.titular = "Alex"
     contaAlex.numero = 2002
-    contaAlex.setSaldo(200.0)
+    contaAlex.deposita(200.0)
     println("Titular: ${contaAlex.titular}")
     println("Numero da conta: ${contaAlex.numero}")
-    println("Saldo: ${contaAlex.getSaldo()}")
+    println("Saldo: ${contaAlex.saldo}")
 
     val contaFran = Conta()
     contaFran.titular = "Fran"
     contaFran.numero = 1001
-    contaFran.setSaldo(300.0)
+    contaFran.deposita( 300.0)
     println("Titular: ${contaFran.titular}")
     println("Numero da conta: ${contaFran.numero}")
-    println("Saldo: ${contaFran.getSaldo()}")
+    println("Saldo: ${contaFran.saldo}")
 
 
 
 
-    /*println("Depositando na conta da Fran")
+    println("Depositando na conta da Fran")
     contaFran.deposita(valor = 50.0)
     println(contaFran.saldo)
 
@@ -35,7 +35,7 @@ fun main() {
         println("Falha na transferência")
     }
     println("SALDO ALEX ${contaAlex.saldo}")
-    println("SALDO FRAN ${contaFran.saldo}")*/
+    println("SALDO FRAN ${contaFran.saldo}")
 }
 
 
@@ -43,10 +43,14 @@ fun main() {
 class Conta {
     var titular = ""
     var numero = 0
-    private var saldo = 0.0
+    var saldo = 0.0
+        private set
+
 
     fun deposita(valor: Double) {
-        this.saldo += valor
+        if (valor > 0) {
+            this.saldo += valor
+        }
     }
 
     fun saque(valor: Double) {
@@ -64,15 +68,15 @@ class Conta {
         return false
         }
 
-    fun getSaldo(): Double{
-        return saldo
-    }
-
-    fun setSaldo(valor: Double){
-        if(valor > 0) {
-            saldo = valor
-        }
-    }
+//    fun getSaldo(): Double{
+//        return saldo
+//    }
+//
+//    fun setSaldo(valor: Double){
+//        if(valor > 0) {
+//            saldo = valor
+//        }
+//    }
 
 }
 

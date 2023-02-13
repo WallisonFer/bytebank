@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Implementando função transferência">
+    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Encapsulamento com Getter e Setter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675740028270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Encapsulamento com Getter e Setter">
+      <created>1675823379593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675823379593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +100,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Criação de classe, cópia e referência." />
     <MESSAGE value="Implementando função transferência" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando função transferência" />
+    <MESSAGE value="Encapsulamento com Getter e Setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulamento com Getter e Setter" />
   </component>
 </project>
