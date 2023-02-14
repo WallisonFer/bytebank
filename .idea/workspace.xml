@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Utilizando Properties">
+    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Criando contas com Constructor personalizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676327585022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criando contas com Constructor personalizado">
+      <created>1676332369211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676332369211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +116,7 @@
     <MESSAGE value="Implementando função transferência" />
     <MESSAGE value="Encapsulamento com Getter e Setter" />
     <MESSAGE value="Utilizando Properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilizando Properties" />
+    <MESSAGE value="Criando contas com Constructor personalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando contas com Constructor personalizado" />
   </component>
 </project>

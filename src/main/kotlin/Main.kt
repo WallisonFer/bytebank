@@ -1,13 +1,13 @@
 fun main() {
     println("Bem vindo ao ByteBank")
 
-    val contaAlex = Conta("Alex", 2002)
+    val contaAlex = Conta(titular = "Alex", numero = 2002)
     contaAlex.deposita(200.0)
     println("Titular: ${contaAlex.titular}")
     println("Numero da conta: ${contaAlex.numero}")
     println("Saldo: ${contaAlex.saldo}")
 
-    val contaFran = Conta("Fran", 1001)
+    val contaFran = Conta(titular = "Fran", numero = 1001)
 
     contaFran.deposita(300.0)
     println("Titular: ${contaFran.titular}")
@@ -27,7 +27,7 @@ fun main() {
 
     println("Transferindo valores de Fran para Alex")
 
-    if (contaFran.transfere(valor = 100.0, contaAlex)) {
+    if (contaFran.transfere(destino = contaAlex , valor = 100.0)) {
         println("Tranferência realizada com sucesso!")
     } else {
         println("Falha na transferência")
@@ -39,7 +39,7 @@ fun main() {
 
 class Conta(
     var titular: String,
-    var numero: Int
+    val numero: Int
 ) {
     var saldo = 0.0
         private set
@@ -79,6 +79,7 @@ class Conta(
 }
 
 
+/*
 fun testaCopiasEReferencias() {
     val numeroX = 10
     var numeroY = numeroX
@@ -137,4 +138,4 @@ fun testaCondicoes(saldo: Double) {
         saldo == 0.0 -> println("Conta está neutra")
         else -> println("Conta está negativa")
     }
-}
+}*/
