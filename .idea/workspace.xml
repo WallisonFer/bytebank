@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Adicionando labels as variaveis">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testaComportamentosConta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testaCondicoes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testaCopiasEReferencias.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testaLacos.kt" afterDir="false" />
+    <list default="true" id="bdc88bc0-c1b3-4027-9ee7-d6689be90b16" name="Changes" comment="Organizando o projeto">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Funcionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -22,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -115,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676333324429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Organizando o projeto">
+      <created>1676339286001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676339286001</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +142,7 @@
     <MESSAGE value="Utilizando Properties" />
     <MESSAGE value="Criando contas com Constructor personalizado" />
     <MESSAGE value="Adicionando labels as variaveis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando labels as variaveis" />
+    <MESSAGE value="Organizando o projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando o projeto" />
   </component>
 </project>
